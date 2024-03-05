@@ -1,0 +1,15 @@
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/bin/Debug/net6.0/UUIDReplaceProject
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/bin/Debug/net6.0/UUIDReplaceProject.deps.json
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/bin/Debug/net6.0/UUIDReplaceProject.runtimeconfig.json
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/bin/Debug/net6.0/UUIDReplaceProject.dll
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/bin/Debug/net6.0/ref/UUIDReplaceProject.dll
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/bin/Debug/net6.0/UUIDReplaceProject.pdb
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.csproj.AssemblyReference.cache
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.AssemblyInfoInputs.cache
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.AssemblyInfo.cs
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.csproj.CoreCompileInputs.cache
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.dll
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/ref/UUIDReplaceProject.dll
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.pdb
+/Users/mathewharvey/Documents/dev/UUID_find_replace/UUIDReplaceProject/obj/Debug/net6.0/UUIDReplaceProject.genruntimeconfig.cache
