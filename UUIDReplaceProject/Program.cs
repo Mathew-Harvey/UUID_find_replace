@@ -37,9 +37,16 @@ class Program
 
                 foreach (Match match in matches)
                 {
-                    string transposedUUID = TransposeUUID(match.Value);
+                    string originalUUID = match.Value;
+                    string transposedUUID = TransposeUUID(originalUUID);
                     Console.WriteLine($"{match.Value} => {transposedUUID}");
+                    content = content.Replace(originalUUID, transposedUUID);
+                    fileModified = true;
                     totalCount++;
+                }
+                if (fileModified)
+                {
+                    File.WriteAllText(file, content);
                 }
             }
             Console.WriteLine($"Total UUIDs found: {totalCount}");
@@ -49,19 +56,17 @@ class Program
             Console.WriteLine($"An error occurred: {ex.Message}");
         }
     }
-        static string TransposeUUID(string uuid)
+static string TransposeUUID(string uuid)
+{
+    char TransposeHexChar(char c)
     {
-        char TransposeChar(char c)
-        {
-            if (c >= 'a' && c < 'z') return (char)(c + 1);
-            if (c == 'z') return '0';
-            if (c >= '0' && c < '9') return (char)(c + 1);
-            if (c == '9') return 'A';
-            if (c >= 'A' && c < 'Z') return (char)(c + 1);
-            if (c == 'Z') return 'a';
-            return c;
-        }
-
-        return new string(uuid.Select(TransposeChar).ToArray());
+        if (c >= '0' && c < '9') return (char)(c + 1);
+        if (c == '9') return 'a';
+        if (c >= 'a' && c < 'f') return (char)(c + 1);
+        if (c == 'f') return '0';
+        return c; // Non-hex characters remain unchanged, though valid UUIDs shouldn't have any.
     }
+
+    return new string(uuid.Select(TransposeHexChar).ToArray());
+}
 }
